@@ -1,4 +1,4 @@
-controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (monkey.vy == 0) {
         monkey.vy += -225
     }
